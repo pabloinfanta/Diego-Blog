@@ -1,0 +1,57 @@
+body {
+font-family: 'Raleway', sans-serif;
+
+}
+nav {
+position: fixed;
+}
+.bg-oscuro {
+background-color:#000000;
+}
+
+.bg-plomo {
+background-color:#C0C0C0;
+}
+
+.bg-azul{
+
+background-color: #4682B4;
+}
+
+.text-centrado{
+text-align: center;
+}
+
+.text-blanco {
+color:white;
+}
+
+header {
+background-image: url('../img/bg-hero.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+
+}
+
+.derecha {
+padding-left: 60%;
+}
+
+@media screen and (min-width: 768px) {
+div.tamaño-letra p {
+      font-size: 1.5rem;
+   }
+}
+
+@media screen and (max-width: 768px) {
+  div.tamaño-letra h1{
+      font-size: 1rem;
+  }
+  div.tamaño-letra p {
+      font-size: 0.8rem;
+  }
+
+
+}
