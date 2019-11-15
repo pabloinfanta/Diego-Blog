@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Diego-Blog</title>
+    <meta name="viewport" content="width=device-width, initial=scale=1.0"
+    <!--CSS DE BOOTSTRAP 4.3.1-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <!--Font Awesome icons-->
+    <script src="https://kit.fontawesome.com/2fe7f1401a.js" crossorigin="anonymous"></script>
+    <!--Mi estilo-->
+     <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-oscuro fixed-top">
+    <a class="navbar-brand" href="index.html">Diego-Blog</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav  ml-auto">
+        <li class="nav-item active pt-2">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+     <li class="nav-item">
+        <div class="dropdown">
+          <button class="dropbtn nav-link">Trabajos</button>
+          <div class="dropdown-content">
+            <a href="#">Proyectos Fotográficos</a>
+            <a href="#">Visitas a Restaurantes</a>
+            <a href="#">Experiencias de Viajes</a>
+         </div>
+       </div>
+      </li>
+
+        <li class="nav-item pt-2">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+<section id= "retratos"  class="container-fluid bg-verde-oscuro text-centrado text-blanco  pt-5 mt-5">
+      <h1>Retratos</h1>
+      <p>Los retratos son partes snfosfosnocfsdcañm, recuerda hacer click sobre el retrato, para ver más detalle de la fotografía</p>
+        <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#blogCarousel" data-slide-to="1"></li>
+        </ol>
+
+      <div class="carousel-inner pt-3 pb-5">
+       <div class="carousel-item active">
+        <div class="row">
+           <div class="col-md-2">
+             <img src="assets/img/mujer01_1.jpeg" class="img-thumbnail tamaño"  alt="" data-toggle="modal" data-target="#mujer01_1">
+          </div>
+           <div class="col-md-2">
+             <img src="assets/img/mujer01_2.jpeg"class="img-thumbnail tamaño"   alt="" data-toggle="modal" data-target="#mujer01_2">
+           </div>
+           <div class="col-md-2">
+             <img src="assets/img/mujer01_3.jpeg"class="img-thumbnail tamaño "   alt="" data-toggle="modal" data-target="#mujer01_3">
+           </div>
+           <div class="col-md-2">
+             <img src="assets/img/mujer01_4.jpeg"class="img-thumbnail tamaño"   alt="" data-toggle="modal" data-target="#mujer01_4">
+           </div>
+           <div class="col-md-2">
+             <img src="assets/img/mujer01_5.jpeg"class="img-thumbnail tamaño"   alt="" data-toggle="modal" data-target="#mujer01_5">
+           </div>
+           <div class="col-md-2">
+             <img src="assets/img/mujer01_6.jpeg"class="img-thumbnail tamaño"   alt="" data-toggle="modal" data-target="#mujer01_6">
+           </div>
+          </div>
+        </div>
+         <div class="carousel-item">
+          <div class="row">
+             <div class="col-md-2">
+               <img src="assets/img/mujer01_7.jpeg" class="img-thumbnail tamaño"  alt="" data-toggle="modal" data-target="#mujer01_7">
+            </div>
+             <div class="col-md-2">
+               <img src="assets/img/mujer01_8.jpeg"class="img-thumbnail tamaño"   alt="" data-toggle="modal" data-target="#mujer01_8">
+             </div>
+             <div class="col-md-2">
+               <img src="assets/img/mujer01_9.jpeg"class="img-thumbnail tamaño"   alt="" data-toggle="modal" data-target="#mujer01_9">
+             </div>
+             <div class="col-md-2">
+               <img src="assets/img/mujer01_10.jpeg"class="img-thumbnail tamaño"   alt="" data-toggle="modal" data-target="#mujer01_10">
+             </div>
+             <div class="col-md-2">
+               <img src="assets/img/mujer01_11.jpeg"class="img-thumbnail tamaño"   alt="" data-toggle="modal" data-target="#mujer01_11">
+             </div>
+             <div class="col-md-2">
+               <img src="assets/img/mujer01_12.jpeg"class="img-thumbnail tamaño"   alt="" data-toggle="modal" data-target="#mujer01_12">
+             </div>
+            </div>
+          </div>
+        </div>
+     </div>
+</section>
+
+
+  <!--Modals-->
+
+<div class="modal fade" id="mujer01_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-oscuro text-blanco">
+        <h5 class="modal-title " id="exampleModalLabel">Perla</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body bg-oscuro text-blanco">
+        <img src="assets/img/mujer01_1.jpeg" class="img-fluid my-3" alt="Perla">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+      <div class="modal-footer bg-oscuro text-blanco">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="mujer01_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-oscuro text-blanco">
+        <h5 class="modal-title " id="exampleModalLabel">Perla</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body bg-oscuro text-blanco">
+        <img src="assets/img/mujer01_2.jpeg" class="img-fluid my-3" alt="Perla">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+      <div class="modal-footer bg-oscuro text-blanco">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="mujer01_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-oscuro text-blanco">
+        <h5 class="modal-title " id="exampleModalLabel">Perla</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body bg-oscuro text-blanco">
+        <img src="assets/img/mujer01_3.jpeg" class="img-fluid my-3" alt="Perla">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+      <div class="modal-footer bg-oscuro text-blanco">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="mujer01_4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-oscuro text-blanco">
+        <h5 class="modal-title " id="exampleModalLabel">Perla</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body bg-oscuro text-blanco">
+        <img src="assets/img/mujer01_4.jpeg" class="img-fluid my-3" alt="Perla">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+      <div class="modal-footer bg-oscuro text-blanco">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="mujer01_5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-oscuro text-blanco">
+        <h5 class="modal-title " id="exampleModalLabel">Perla</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body bg-oscuro text-blanco">
+        <img src="assets/img/mujer01_5.jpeg" class="img-fluid my-3" alt="Perla">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+      <div class="modal-footer bg-oscuro text-blanco">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="mujer01_6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-oscuro text-blanco">
+        <h5 class="modal-title " id="exampleModalLabel">Perla</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body bg-oscuro text-blanco">
+        <img src="assets/img/mujer01_6.jpeg" class="img-fluid my-3" alt="Perla">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+      <div class="modal-footer bg-oscuro text-blanco">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="mujer01_7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-oscuro text-blanco">
+        <h5 class="modal-title " id="exampleModalLabel">Perla</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body bg-oscuro text-blanco">
+        <img src="assets/img/mujer01_7.jpeg" class="img-fluid my-3" alt="Perla">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+      <div class="modal-footer bg-oscuro text-blanco">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="mujer01_8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-oscuro text-blanco">
+        <h5 class="modal-title " id="exampleModalLabel">Perla</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body bg-oscuro text-blanco">
+        <img src="assets/img/mujer01_8.jpeg" class="img-fluid my-3" alt="Perla">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+      <div class="modal-footer bg-oscuro text-blanco">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="mujer01_9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-oscuro text-blanco">
+        <h5 class="modal-title " id="exampleModalLabel">Perla</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body bg-oscuro text-blanco">
+        <img src="assets/img/mujer01_9.jpeg" class="img-fluid my-3" alt="Perla">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+      <div class="modal-footer bg-oscuro text-blanco">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="mujer01_10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-oscuro text-blanco">
+        <h5 class="modal-title " id="exampleModalLabel">Perla</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body bg-oscuro text-blanco">
+        <img src="assets/img/mujer01_10.jpeg" class="img-fluid my-3" alt="Perla">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+      <div class="modal-footer bg-oscuro text-blanco">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="mujer01_11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-oscuro text-blanco">
+        <h5 class="modal-title " id="exampleModalLabel">Perla</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body bg-oscuro text-blanco">
+        <img src="assets/img/mujer01_11.jpeg" class="img-fluid my-3" alt="Perla">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+      <div class="modal-footer bg-oscuro text-blanco">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="mujer01_12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-oscuro text-blanco">
+        <h5 class="modal-title " id="exampleModalLabel">Perla</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body bg-oscuro text-blanco">
+        <img src="assets/img/mujer01_12.jpeg" class="img-fluid my-3" alt="Perla">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+      <div class="modal-footer bg-oscuro text-blanco">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+      <!--jQuery 3.4.1 sin slim-->
+      <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+
+      <!--Popper JS 1.14.7-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+      <!--Bootstrap JS 4.3.1-->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+      <!--mi Script-->
+      <script src="assets/js/script.js"></script>
+    </body>
+  </html>
