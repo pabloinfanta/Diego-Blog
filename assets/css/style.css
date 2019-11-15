@@ -3,11 +3,6 @@ font-family: 'Raleway', sans-serif;
 
 }
 
-.navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
 
 .bg-oscuro {
 background-color:#000000;
@@ -34,6 +29,8 @@ text-align: center;
 color:white;
 }
 
+
+
 header {
 background-image: url('../img/bg-hero.jpeg');
 background-repeat: no-repeat;
@@ -42,11 +39,12 @@ background-position: center;
 
 }
 
-.tamaño {
-height:85%;
-width: 85%;
 
+
+#retratos div {
+padding-top: 10px;
 }
+
 
 .derecha {
 padding-left: 60%;
@@ -56,6 +54,8 @@ padding-left: 60%;
 div.tamaño-letra p {
       font-size: 1.5rem;
    }
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -65,6 +65,8 @@ div.tamaño-letra p {
   div.tamaño-letra p {
       font-size: 0.8rem;
   }
+
+
 
 }
 
