@@ -29,6 +29,20 @@ text-align: center;
 color:white;
 }
 
+.zoom{
+transition: transform 0.4s;
+
+}
+.zoom:hover  {
+transform: scale(1.03);
+/*filter:opacity(.5);*/
+filter: grayscale(80%);
+display: block;
+visibility:visible;
+
+}
+
+
 
 
 header {
@@ -36,14 +50,14 @@ background-image: url('../img/bg-hero.jpeg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-
+padding-top: 80px;
 }
-
 
 
 #retratos div {
-padding-top: 10px;
+padding-bottom: 17px;
 }
+
 
 
 .derecha {
